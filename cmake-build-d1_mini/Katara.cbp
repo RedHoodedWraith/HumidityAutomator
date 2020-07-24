@@ -1,0 +1,1166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Katara"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/rowan/Development/Katara/cmake-build-d1_mini"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rowan/Development/Katara/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rowan/Development/Katara/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rowan/Development/Katara/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rowan/Development/Katara/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/rowan/Development/Katara/cmake-build-d1_mini"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rowan/Development/Katara/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rowan/Development/Katara/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rowan/Development/Katara/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rowan/Development/Katara/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Production">
+				<Option working_dir="/home/rowan/Development/Katara/cmake-build-d1_mini"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rowan/Development/Katara/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 Production"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rowan/Development/Katara/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rowan/Development/Katara/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rowan/Development/Katara/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/rowan/Development/Katara/cmake-build-d1_mini"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rowan/Development/Katara/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rowan/Development/Katara/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rowan/Development/Katara/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rowan/Development/Katara/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Debug">
+				<Option working_dir="/home/rowan/Development/Katara/cmake-build-d1_mini"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rowan/Development/Katara/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 Debug"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rowan/Development/Katara/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rowan/Development/Katara/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rowan/Development/Katara/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET">
+				<Option output="/home/rowan/Development/Katara/cmake-build-d1_mini/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rowan/Development/Katara/cmake-build-d1_mini"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rowan/Development/Katara/include"/>
+					<Add directory="/home/rowan/Development/Katara/src"/>
+					<Add directory="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/DHT sensor library"/>
+					<Add directory="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Adafruit Unified Sensor"/>
+					<Add directory="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFi/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/tools/sdk/include"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/tools/sdk/libc/xtensa-lx106-elf/include"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/cores/esp8266"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/tools/sdk/lwip2/include"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/variants/d1_mini"/>
+					<Add directory="/home/rowan/.platformio/lib/Bridge_ID945/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266SdFat/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/Ethernet/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/SD/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/SDFS/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/SPI"/>
+					<Add directory="/home/rowan/.platformio/lib/Adafruit Unified Sensor"/>
+					<Add directory="/home/rowan/.platformio/lib/Arduino_JSON_ID6249/src"/>
+					<Add directory="/home/rowan/.platformio/lib/Blynk/src"/>
+					<Add directory="/home/rowan/.platformio/lib/DHT sensor library"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ArduinoOTA"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/DNSServer/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/EEPROM"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266AVRISP/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266HTTPClient/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266HTTPUpdateServer/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266LLMNR"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266NetBIOS"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266SSDP"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WebServer/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFiMesh/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266httpUpdate/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266mDNS/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/GDBStub/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/Hash/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/LittleFS/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/SPISlave/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/Servo/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/SoftwareSerial/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/TFT_Touch_Shield_V2"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/Ticker/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/Wire"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/esp8266/src"/>
+					<Add directory="/home/rowan/.platformio/packages/toolchain-xtensa/xtensa-lx106-elf/include/c++/4.8.2"/>
+					<Add directory="/home/rowan/.platformio/packages/toolchain-xtensa/xtensa-lx106-elf/include/c++/4.8.2/xtensa-lx106-elf"/>
+					<Add directory="/home/rowan/.platformio/packages/toolchain-xtensa/lib/gcc/xtensa-lx106-elf/4.8.2/include-fixed"/>
+					<Add directory="/home/rowan/.platformio/packages/toolchain-xtensa/lib/gcc/xtensa-lx106-elf/4.8.2/include"/>
+					<Add directory="/home/rowan/.platformio/packages/toolchain-xtensa/xtensa-lx106-elf/include"/>
+					<Add directory="/home/rowan/.platformio/packages/tool-unity"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rowan/Development/Katara/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rowan/Development/Katara/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rowan/Development/Katara/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rowan/Development/Katara/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET/fast">
+				<Option output="/home/rowan/Development/Katara/cmake-build-d1_mini/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rowan/Development/Katara/cmake-build-d1_mini"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/rowan/Development/Katara/include"/>
+					<Add directory="/home/rowan/Development/Katara/src"/>
+					<Add directory="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/DHT sensor library"/>
+					<Add directory="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Adafruit Unified Sensor"/>
+					<Add directory="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFi/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/tools/sdk/include"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/tools/sdk/libc/xtensa-lx106-elf/include"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/cores/esp8266"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/tools/sdk/lwip2/include"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/variants/d1_mini"/>
+					<Add directory="/home/rowan/.platformio/lib/Bridge_ID945/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266SdFat/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/Ethernet/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/SD/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/SDFS/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/SPI"/>
+					<Add directory="/home/rowan/.platformio/lib/Adafruit Unified Sensor"/>
+					<Add directory="/home/rowan/.platformio/lib/Arduino_JSON_ID6249/src"/>
+					<Add directory="/home/rowan/.platformio/lib/Blynk/src"/>
+					<Add directory="/home/rowan/.platformio/lib/DHT sensor library"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ArduinoOTA"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/DNSServer/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/EEPROM"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266AVRISP/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266HTTPClient/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266HTTPUpdateServer/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266LLMNR"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266NetBIOS"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266SSDP"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WebServer/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFiMesh/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266httpUpdate/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266mDNS/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/GDBStub/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/Hash/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/LittleFS/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/SPISlave/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/Servo/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/SoftwareSerial/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/TFT_Touch_Shield_V2"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/Ticker/src"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/Wire"/>
+					<Add directory="/home/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/esp8266/src"/>
+					<Add directory="/home/rowan/.platformio/packages/toolchain-xtensa/xtensa-lx106-elf/include/c++/4.8.2"/>
+					<Add directory="/home/rowan/.platformio/packages/toolchain-xtensa/xtensa-lx106-elf/include/c++/4.8.2/xtensa-lx106-elf"/>
+					<Add directory="/home/rowan/.platformio/packages/toolchain-xtensa/lib/gcc/xtensa-lx106-elf/4.8.2/include-fixed"/>
+					<Add directory="/home/rowan/.platformio/packages/toolchain-xtensa/lib/gcc/xtensa-lx106-elf/4.8.2/include"/>
+					<Add directory="/home/rowan/.platformio/packages/toolchain-xtensa/xtensa-lx106-elf/include"/>
+					<Add directory="/home/rowan/.platformio/packages/tool-unity"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rowan/Development/Katara/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rowan/Development/Katara/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rowan/Development/Katara/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rowan/Development/Katara/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Adafruit Unified Sensor/.github/workflows/githubci.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Adafruit Unified Sensor/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Adafruit Unified Sensor/Adafruit_Sensor.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Adafruit Unified Sensor/Adafruit_Sensor.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Adafruit Unified Sensor/LICENSE.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Adafruit Unified Sensor/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Adafruit Unified Sensor/examples/sensortest/sensortest.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Adafruit Unified Sensor/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_ESP32/BlynkProvisioning.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_ESP32/BlynkState.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_ESP32/ConfigMode.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_ESP32/ConfigStore.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_ESP32/Indicator.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_ESP32/OTA.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_ESP32/ResetButton.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_ESP32/Settings.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_ESP32/Template_ESP32.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_ESP8266/BlynkProvisioning.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_ESP8266/BlynkState.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_ESP8266/ConfigMode.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_ESP8266/ConfigStore.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_ESP8266/Indicator.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_ESP8266/OTA.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_ESP8266/ResetButton.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_ESP8266/Settings.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_ESP8266/Template_ESP8266.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_MKR1000/BlynkProvisioning.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_MKR1000/BlynkState.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_MKR1000/ConfigMode.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_MKR1000/ConfigStore.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_MKR1000/Indicator.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_MKR1000/OTA.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_MKR1000/ResetButton.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_MKR1000/Settings.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_MKR1000/Template_MKR1000.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_MKR1010/BlynkProvisioning.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_MKR1010/BlynkState.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_MKR1010/ConfigMode.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_MKR1010/ConfigStore.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_MKR1010/Indicator.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_MKR1010/OTA.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_MKR1010/ResetButton.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_MKR1010/Settings.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/Template_MKR1010/Template_MKR1010.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/myPlant_ESP8266/BlynkProvisioning.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/myPlant_ESP8266/BlynkState.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/myPlant_ESP8266/ConfigMode.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/myPlant_ESP8266/ConfigStore.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/myPlant_ESP8266/Indicator.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/myPlant_ESP8266/OTA.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/myPlant_ESP8266/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/myPlant_ESP8266/ResetButton.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/myPlant_ESP8266/Settings.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Blynk.Inject/myPlant_ESP8266/myPlant_ESP8266.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_Bluetooth/Adafruit_Bluefruit_LE/Adafruit_Bluefruit_LE.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_Bluetooth/Adafruit_Feather_32u4_BLE/Adafruit_Feather_32u4_BLE.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_Bluetooth/Arduino_101_BLE/Arduino_101_BLE.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_Bluetooth/BBC_MicroBit/BBC_MicroBit.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_Bluetooth/DFRobot_Bluno_BLE_Link/DFRobot_Bluno_BLE_Link.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_Bluetooth/ESP32_BLE/ESP32_BLE.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_Bluetooth/ESP32_BT/ESP32_BT.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_Bluetooth/Energia_BLE/Energia_BLE.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_Bluetooth/LightBlue_Bean/LightBlue_Bean.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_Bluetooth/Microduino_BLE/Microduino_BLE.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_Bluetooth/RFDuino_BLE/RFDuino_BLE.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_Bluetooth/RedBearLab_BLE_Mini/RedBearLab_BLE_Mini.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_Bluetooth/RedBearLab_BLE_Nano/RedBearLab_BLE_Nano.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_Bluetooth/RedBearLab_BlendMicro/RedBearLab_BlendMicro.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_Bluetooth/RedBear_Duo_BLE/RedBear_Duo_BLE.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_Bluetooth/Serial_HC05_HC06/Serial_HC05_HC06.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_Bluetooth/Serial_HM10_HC08/Serial_HM10_HC08.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_Bluetooth/Simblee_BLE/Simblee_BLE.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_Bluetooth/TheAirBoard_BLE_Link/TheAirBoard_BLE_Link.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_Bluetooth/nRF8001/nRF8001.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_Ethernet/Arduino_Ethernet/Arduino_Ethernet.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_Ethernet/Arduino_Ethernet2/Arduino_Ethernet2.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_Ethernet/Arduino_Ethernet_Manual/Arduino_Ethernet_Manual.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_Ethernet/Arduino_MKR_ETH/Arduino_MKR_ETH.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_Ethernet/Arduino_MKR_ETH_SSL/Arduino_MKR_ETH_SSL.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_Ethernet/ENC28J60/ENC28J60.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_Ethernet/Energia_Ethernet/Energia_Ethernet.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_Ethernet/Intel_Galileo/Intel_Galileo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_Ethernet/Seeed_EthernetV2_0/Seeed_EthernetV2_0.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_GSM/Arduino_MKRGSM/Arduino_MKRGSM.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_GSM/Arduino_MKRNB/Arduino_MKRNB.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_GSM/TinyGSM_MKR1400/TinyGSM_MKR1400.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_GSM/TinyGSM_SIM800_SIM900/TinyGSM_SIM800_SIM900.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_USB_Serial/ATtiny85/ATtiny85.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_USB_Serial/Arduino_Serial_USB/Arduino_Serial_USB.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_USB_Serial/Arduino_SoftwareSerial/Arduino_SoftwareSerial.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_USB_Serial/Arduino_Zero_M0_Serial/Arduino_Zero_M0_Serial.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_USB_Serial/Blue_Pill_STM32F103C/Blue_Pill_STM32F103C.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_USB_Serial/Digistump_Digispark/Digistump_Digispark.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_USB_Serial/Energia_Serial_USB/Energia_Serial_USB.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_USB_Serial/Teensy3/Teensy3.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_USB_Serial/chipKIT_Uno32/chipKIT_Uno32.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_WiFi/Adafruit_Feather_M0_WiFi/Adafruit_Feather_M0_WiFi.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_WiFi/Arduino_MKR1000/Arduino_MKR1000.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_WiFi/Arduino_MKR1010/Arduino_MKR1010.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_WiFi/Arduino_WiFi_Shield/Arduino_WiFi_Shield.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_WiFi/Arduino_WiFi_Shield_101/Arduino_WiFi_Shield_101.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_WiFi/Arduino_Yun/Arduino_Yun.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_WiFi/Arduino_org_UNO_WiFi/Arduino_org_UNO_WiFi.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_WiFi/CC3000/CC3000.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_WiFi/Digistump_Oak/Digistump_Oak.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_WiFi/ESP32_WiFi/ESP32_WiFi.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_WiFi/ESP32_WiFi_SSL/ESP32_WiFi_SSL.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_WiFi/ESP8266_Shield/ESP8266_Shield.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_WiFi/ESP8266_Standalone/ESP8266_Standalone.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_WiFi/ESP8266_Standalone_Manual_IP/ESP8266_Standalone_Manual_IP.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_WiFi/ESP8266_Standalone_SSL/ESP8266_Standalone_SSL.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_WiFi/ESP8266_Standalone_SmartConfig/ESP8266_Standalone_SmartConfig.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_WiFi/Energia_WiFi/Energia_WiFi.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_WiFi/Fishino/Fishino.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_WiFi/Intel_Edison_WiFi/Intel_Edison_WiFi.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_WiFi/LinkItONE/LinkItONE.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_WiFi/NodeMCU/NodeMCU.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_WiFi/RN_XV_WiFly/RN_XV_WiFly.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_WiFi/RedBear_Duo_WiFi/RedBear_Duo_WiFi.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_WiFi/Sparkfun_Blynk_Board/Sparkfun_Blynk_Board.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_WiFi/TheAirBoard_WiFly/TheAirBoard_WiFly.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_WiFi/TinyDuino_WiFi/TinyDuino_WiFi.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_WiFi/WildFire_V3/WildFire_V3.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_WiFi/WildFire_V4/WildFire_V4.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_WiFi/WizFi310/WizFi310.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_With_HTTP_API/Arduino_Ethernet/Arduino_Ethernet.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_With_HTTP_API/Arduino_GSM/Arduino_GSM.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_With_HTTP_API/ESP8266/ESP8266.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Boards_With_HTTP_API/SIM800_SIM900/SIM800_SIM900.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/GettingStarted/BlynkBlink/App.png">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/GettingStarted/BlynkBlink/AppQR.png">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/GettingStarted/BlynkBlink/BlynkBlink.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/GettingStarted/BlynkBlink/readme.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/GettingStarted/GetData/GetData.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/GettingStarted/PushData/PushData.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/GettingStarted/PushDataOnRequest/PushDataOnRequest.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/GettingStarted/Servo/Servo.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/GettingStarted/VirtualPinRead/VirtualPinRead.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/GettingStarted/VirtualPinReply/VirtualPinReply.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/GettingStarted/VirtualPinWrite/VirtualPinWrite.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/More/AppConnectedEvents/AppConnectedEvents.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/More/ArduinoClient/Arduino_Ethernet/Arduino_Ethernet.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/More/ArduinoClient/ESP8266_WiFi/ESP8266_WiFi.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/More/DHT11/DHT11.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/More/DirectConnect/ESP8266_AccessPoint/ESP8266_AccessPoint.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/More/DirectConnect/ESP8266_Station/ESP8266_Station.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/More/FormatString/FormatString.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/More/HandleDisconnect/HandleDisconnect.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/More/NeoPixel/NeoPixel.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/More/PrintAllVirtual/PrintAllVirtual.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/More/ServerAsDataStorage/ServerAsDataStorage_MultiValue/ServerAsDataStorage_MultiValue.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/More/ServerAsDataStorage/ServerAsDataStorage_SingleValue/ServerAsDataStorage_SingleValue.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/More/SetProperty/SetProperty_MultiValue/SetProperty_MultiValue.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/More/SetProperty/SetProperty_SingleValue/SetProperty_SingleValue.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/More/Stroboscope/Stroboscope.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/More/Sync/ButtonInterrupt/ButtonInterrupt.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/More/Sync/ButtonPoll/ButtonPoll.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/More/Sync/HardwareSyncStateFromApp/HardwareSyncStateFromApp.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/More/Sync/SyncPhysicalButton/SyncPhysicalButton.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Widgets/Bridge/Bridge.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Widgets/Email/Email.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Widgets/Eventor/Eventor.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Widgets/GPS_Stream/GPS_Stream.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Widgets/JoystickTwoAxis/JoystickTwoAxis.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Widgets/LCD/LCD_AdvancedMode/LCD_AdvancedMode.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Widgets/LCD/LCD_SimpleModePushing/LCD_SimpleModePushing.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Widgets/LCD/LCD_SimpleModeReading/LCD_SimpleModeReading.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Widgets/LED/LED_Blink/LED_Blink.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Widgets/LED/LED_Color/LED_Color.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Widgets/LED/LED_Fade/LED_Fade.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Widgets/LED/LED_StatusOfButton/LED_StatusOfButton.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Widgets/Map/Map.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Widgets/Menu/Menu.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Widgets/Player/Player.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Widgets/PushNotification/PushNotification_Button/PushNotification_Button.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Widgets/PushNotification/PushNotification_Interval/PushNotification_Interval.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Widgets/RTC/RTC.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Widgets/RTC_Advanced/RTC_Advanced.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Widgets/Table/Table_Advanced/Table_Advanced.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Widgets/Table/Table_Simple/Table_Simple.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Widgets/Terminal/Terminal.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Widgets/TimeInput/AdvancedTimeInput/AdvancedTimeInput.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Widgets/TimeInput/SimpleTimeInput/SimpleTimeInput.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Widgets/TimeInput/UpdateTimeInputState/UpdateTimeInputState.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Widgets/Timer/Timer.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Widgets/Twitter/Twitter.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/examples/Widgets/WebHook/WebHook_GET/WebHook_GET.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/library.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/scripts/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/scripts/blynk-ser.bat">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/scripts/blynk-ser.sh">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/scripts/blynk_ctrl.py">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/scripts/certs/server.crt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/scripts/com2tcp.bin">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/Adapters/BlynkArduinoClient.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/Adapters/BlynkArduinoGSM.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/Adapters/BlynkArduinoNB.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/Adapters/BlynkBLEPeripheralSerial.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/Adapters/BlynkCC3000.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/Adapters/BlynkEthernet.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/Adapters/BlynkGsmClient.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/Adapters/BlynkSerial.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/Adapters/BlynkWiFiCommon.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/Adapters/BlynkWiFly.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/Adapters/BlynkWildFire.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/Blynk.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/Blynk/BlynkApi.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/Blynk/BlynkConfig.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/Blynk/BlynkDebug.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/Blynk/BlynkDetectDevice.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/Blynk/BlynkEveryN.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/Blynk/BlynkHandlers.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/Blynk/BlynkParam.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/Blynk/BlynkProtocol.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/Blynk/BlynkProtocolDefs.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/Blynk/BlynkTemplates.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/Blynk/BlynkTimer.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/Blynk/BlynkWidgetBase.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkApiArduino.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkApiMbed.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkApiParticle.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkParticle.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleBLEPeripheral.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleCC3000.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleCurieBLE.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleEnergiaEthernet.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleEnergiaWiFi.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleEsp32.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleEsp32_BLE.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleEsp32_BT.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleEsp32_SSL.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleEsp8266.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleEsp8266_SSL.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleEthernet.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleEthernet2.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleEthernetSSL.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleEthernetV2_0.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleFishino.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleIntelEdisonWiFi.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleLinkItONE.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleMKR1000.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleMKRGSM.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleMKRNB.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleParticle.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleRFduinoBLE.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleRedBearLab_BLE_Nano.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleRedBear_Duo.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleRedBear_Duo_BLE.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleSIM800.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleSerialBLE.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleShieldEsp8266.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleSimbleeBLE.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleStream.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleTinyDuino.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleTinyGSM.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleUIPEthernet.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleUserDefined.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleWiFiLink.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleWiFiNINA.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleWiFiShield101.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleWiFiShield101_SSL.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleWiFly.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleWifi.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleWildFire.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleWizFi310.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkSimpleYun.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/BlynkWidgets.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/WidgetBridge.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/WidgetGPS.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/WidgetLCD.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/WidgetLED.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/WidgetMap.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/WidgetRTC.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/WidgetSD.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/WidgetTable.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/WidgetTerminal.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/WidgetTimeInput.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/certs/_DSTRootX3.der">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/certs/_DSTRootX3.pem">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/certs/_ISRGRootX1.crt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/certs/_ISRGRootX1.der">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/certs/_LetsEncryptAuthorityX3.crt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/certs/_LetsEncryptAuthorityX3.der">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/certs/_blynk-cloudcom.crt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/certs/_blynk-cloudcom.der">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/certs/blynkcloud_der.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/certs/blynkcloud_pem.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/certs/dst_der.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/certs/isrgroot_der.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/certs/letsencrypt_der.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/certs/letsencrypt_pem.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkDateTime.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkFifo.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkUtility.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/Blynk/src/utility/utility.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/DHT sensor library/.github/ISSUE_TEMPLATE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/DHT sensor library/.github/PULL_REQUEST_TEMPLATE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/DHT sensor library/.github/workflows/githubci.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/DHT sensor library/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/DHT sensor library/CONTRIBUTING.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/DHT sensor library/DHT.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/DHT sensor library/DHT.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/DHT sensor library/DHT_U.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/DHT sensor library/DHT_U.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/DHT sensor library/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/DHT sensor library/code-of-conduct.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/DHT sensor library/examples/DHT_Unified_Sensor/DHT_Unified_Sensor.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/DHT sensor library/examples/DHTtester/DHTtester.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/DHT sensor library/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/DHT sensor library/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/.pio/libdeps/d1_mini/DHT sensor library/license.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/src/main.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/rowan/Development/Katara/CMakeListsPrivate.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
