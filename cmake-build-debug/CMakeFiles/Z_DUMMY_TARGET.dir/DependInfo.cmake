@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/rowan/Development/Katara/src/main.cpp" "/home/rowan/Development/Katara/cmake-build-debug/CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj"
+  "/Users/rowan/Development/HumidityAutomator/src/main.cpp" "/Users/rowan/Development/HumidityAutomator/cmake-build-debug/CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

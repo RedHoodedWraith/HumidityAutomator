@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion-2020.1.2/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion-2020.1.2/bin/cmake/linux/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rowan/Development/Katara
+CMAKE_SOURCE_DIR = /Users/rowan/Development/HumidityAutomator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rowan/Development/Katara/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/rowan/Development/HumidityAutomator/cmake-build-debug
 
 # Utility rule file for Debug.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/rowan/Development/Katara/cmake-build-debug
 include CMakeFiles/Debug.dir/progress.make
 
 CMakeFiles/Debug:
-	cd /home/rowan/Development/Katara && platformio -c clion run --target debug -eDebug
+	cd /Users/rowan/Development/HumidityAutomator && platformio -c clion run --target debug -eDebug
 
 Debug: CMakeFiles/Debug
 Debug: CMakeFiles/Debug.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/Debug.dir/clean:
 .PHONY : CMakeFiles/Debug.dir/clean
 
 CMakeFiles/Debug.dir/depend:
-	cd /home/rowan/Development/Katara/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rowan/Development/Katara /home/rowan/Development/Katara /home/rowan/Development/Katara/cmake-build-debug /home/rowan/Development/Katara/cmake-build-debug /home/rowan/Development/Katara/cmake-build-debug/CMakeFiles/Debug.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/rowan/Development/HumidityAutomator/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/rowan/Development/HumidityAutomator /Users/rowan/Development/HumidityAutomator /Users/rowan/Development/HumidityAutomator/cmake-build-debug /Users/rowan/Development/HumidityAutomator/cmake-build-debug /Users/rowan/Development/HumidityAutomator/cmake-build-debug/CMakeFiles/Debug.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Debug.dir/depend
 

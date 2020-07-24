@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="HumidityAutomator"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET">
+				<Option output="/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/rowan/Development/HumidityAutomator/include"/>
+					<Add directory="/Users/rowan/Development/HumidityAutomator/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/tools/sdk/include"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/tools/sdk/libc/xtensa-lx106-elf/include"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/cores/esp8266"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/tools/sdk/lwip2/include"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/variants/d1_mini"/>
+					<Add directory="/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/Adafruit Unified Sensor"/>
+					<Add directory="/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/DHT sensor library"/>
+					<Add directory="/Users/rowan/.platformio/lib/Blynk_ID415/src"/>
+					<Add directory="/Users/rowan/.platformio/lib/ESP Async WebServer_ID306/src"/>
+					<Add directory="/Users/rowan/.platformio/lib/ESPAsyncTCP-esphome_ID6757/src"/>
+					<Add directory="/Users/rowan/.platformio/lib/ESPAsyncTCP_ID305/src"/>
+					<Add directory="/Users/rowan/.platformio/lib/ESPAsyncWebServer-esphome_ID6758/src"/>
+					<Add directory="/Users/rowan/.platformio/lib/FirebaseJson/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ArduinoOTA"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/DNSServer/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/EEPROM"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266AVRISP/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266HTTPClient/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266HTTPUpdateServer/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266LLMNR"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266NetBIOS"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266SSDP"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266SdFat/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WebServer/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFi/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFiMesh/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266httpUpdate/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266mDNS/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/Ethernet/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/GDBStub/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/Hash/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/LittleFS/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/SD/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/SDFS/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/SPI"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/SPISlave/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/Servo/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/SoftwareSerial/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/TFT_Touch_Shield_V2"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/Ticker/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/Wire"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/esp8266/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/toolchain-xtensa/xtensa-lx106-elf/include/c++/4.8.2"/>
+					<Add directory="/Users/rowan/.platformio/packages/toolchain-xtensa/xtensa-lx106-elf/include/c++/4.8.2/xtensa-lx106-elf"/>
+					<Add directory="/Users/rowan/.platformio/packages/toolchain-xtensa/lib/gcc/xtensa-lx106-elf/4.8.2/include"/>
+					<Add directory="/Users/rowan/.platformio/packages/toolchain-xtensa/lib/gcc/xtensa-lx106-elf/4.8.2/include-fixed"/>
+					<Add directory="/Users/rowan/.platformio/packages/toolchain-xtensa/xtensa-lx106-elf/include"/>
+					<Add directory="/Users/rowan/.platformio/packages/tool-unity"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET/fast">
+				<Option output="/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/rowan/Development/HumidityAutomator/include"/>
+					<Add directory="/Users/rowan/Development/HumidityAutomator/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/tools/sdk/include"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/tools/sdk/libc/xtensa-lx106-elf/include"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/cores/esp8266"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/tools/sdk/lwip2/include"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/variants/d1_mini"/>
+					<Add directory="/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/Adafruit Unified Sensor"/>
+					<Add directory="/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/DHT sensor library"/>
+					<Add directory="/Users/rowan/.platformio/lib/Blynk_ID415/src"/>
+					<Add directory="/Users/rowan/.platformio/lib/ESP Async WebServer_ID306/src"/>
+					<Add directory="/Users/rowan/.platformio/lib/ESPAsyncTCP-esphome_ID6757/src"/>
+					<Add directory="/Users/rowan/.platformio/lib/ESPAsyncTCP_ID305/src"/>
+					<Add directory="/Users/rowan/.platformio/lib/ESPAsyncWebServer-esphome_ID6758/src"/>
+					<Add directory="/Users/rowan/.platformio/lib/FirebaseJson/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ArduinoOTA"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/DNSServer/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/EEPROM"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266AVRISP/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266HTTPClient/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266HTTPUpdateServer/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266LLMNR"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266NetBIOS"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266SSDP"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266SdFat/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WebServer/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFi/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFiMesh/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266httpUpdate/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266mDNS/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/Ethernet/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/GDBStub/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/Hash/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/LittleFS/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/SD/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/SDFS/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/SPI"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/SPISlave/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/Servo/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/SoftwareSerial/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/TFT_Touch_Shield_V2"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/Ticker/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/Wire"/>
+					<Add directory="/Users/rowan/.platformio/packages/framework-arduinoespressif8266/libraries/esp8266/src"/>
+					<Add directory="/Users/rowan/.platformio/packages/toolchain-xtensa/xtensa-lx106-elf/include/c++/4.8.2"/>
+					<Add directory="/Users/rowan/.platformio/packages/toolchain-xtensa/xtensa-lx106-elf/include/c++/4.8.2/xtensa-lx106-elf"/>
+					<Add directory="/Users/rowan/.platformio/packages/toolchain-xtensa/lib/gcc/xtensa-lx106-elf/4.8.2/include"/>
+					<Add directory="/Users/rowan/.platformio/packages/toolchain-xtensa/lib/gcc/xtensa-lx106-elf/4.8.2/include-fixed"/>
+					<Add directory="/Users/rowan/.platformio/packages/toolchain-xtensa/xtensa-lx106-elf/include"/>
+					<Add directory="/Users/rowan/.platformio/packages/tool-unity"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Debug">
+				<Option working_dir="/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 Debug"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Production">
+				<Option working_dir="/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 Production"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/Adafruit Unified Sensor/.github/workflows/githubci.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/Adafruit Unified Sensor/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/Adafruit Unified Sensor/Adafruit_Sensor.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/Adafruit Unified Sensor/Adafruit_Sensor.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/Adafruit Unified Sensor/LICENSE.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/Adafruit Unified Sensor/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/Adafruit Unified Sensor/examples/sensortest/sensortest.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/Adafruit Unified Sensor/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/DHT sensor library/.github/ISSUE_TEMPLATE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/DHT sensor library/.github/PULL_REQUEST_TEMPLATE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/DHT sensor library/.github/workflows/githubci.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/DHT sensor library/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/DHT sensor library/CONTRIBUTING.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/DHT sensor library/DHT.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/DHT sensor library/DHT.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/DHT sensor library/DHT_U.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/DHT sensor library/DHT_U.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/DHT sensor library/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/DHT sensor library/code-of-conduct.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/DHT sensor library/examples/DHT_Unified_Sensor/DHT_Unified_Sensor.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/DHT sensor library/examples/DHTtester/DHTtester.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/DHT sensor library/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/DHT sensor library/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/DHT sensor library/license.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/rowan/Development/HumidityAutomator/src/main.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/Users/rowan/Development/HumidityAutomator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/rowan/Development/HumidityAutomator/CMakeListsPrivate.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

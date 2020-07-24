@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion-2020.1.2/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion-2020.1.2/bin/cmake/linux/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rowan/Development/Katara
+CMAKE_SOURCE_DIR = /Users/rowan/Development/HumidityAutomator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rowan/Development/Katara/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/rowan/Development/HumidityAutomator/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/rowan/Development/Katara/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/opt/clion-2020.1.2/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/opt/clion-2020.1.2/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rowan/Development/Katara/cmake-build-debug/CMakeFiles /home/rowan/Development/Katara/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rowan/Development/HumidityAutomator/cmake-build-debug/CMakeFiles /Users/rowan/Development/HumidityAutomator/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rowan/Development/Katara/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rowan/Development/HumidityAutomator/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Production
+# Target rules for targets named Z_DUMMY_TARGET
 
 # Build rule for target.
-Production: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Production
-.PHONY : Production
+Z_DUMMY_TARGET: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Z_DUMMY_TARGET
+.PHONY : Z_DUMMY_TARGET
 
 # fast build rule for target.
-Production/fast:
-	$(MAKE) -f CMakeFiles/Production.dir/build.make CMakeFiles/Production.dir/build
-.PHONY : Production/fast
+Z_DUMMY_TARGET/fast:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/build
+.PHONY : Z_DUMMY_TARGET/fast
 
 #=============================================================================
 # Target rules for targets named Debug
@@ -137,17 +137,17 @@ Debug/fast:
 .PHONY : Debug/fast
 
 #=============================================================================
-# Target rules for targets named Z_DUMMY_TARGET
+# Target rules for targets named Production
 
 # Build rule for target.
-Z_DUMMY_TARGET: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Z_DUMMY_TARGET
-.PHONY : Z_DUMMY_TARGET
+Production: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Production
+.PHONY : Production
 
 # fast build rule for target.
-Z_DUMMY_TARGET/fast:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/build
-.PHONY : Z_DUMMY_TARGET/fast
+Production/fast:
+	$(MAKE) -f CMakeFiles/Production.dir/build.make CMakeFiles/Production.dir/build
+.PHONY : Production/fast
 
 src/main.obj: src/main.cpp.obj
 
@@ -183,10 +183,10 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Production"
 	@echo "... edit_cache"
-	@echo "... Debug"
 	@echo "... Z_DUMMY_TARGET"
+	@echo "... Debug"
+	@echo "... Production"
 	@echo "... src/main.obj"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

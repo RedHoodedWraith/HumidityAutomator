@@ -1,6 +1,5 @@
 #include <Arduino.h>
 #include "DHT.h"
-#include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 
 #define SENSOR 0

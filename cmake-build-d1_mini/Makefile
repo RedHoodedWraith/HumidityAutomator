@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion-2020.1.2/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion-2020.1.2/bin/cmake/linux/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rowan/Development/Katara
+CMAKE_SOURCE_DIR = /Users/rowan/Development/HumidityAutomator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rowan/Development/Katara/cmake-build-d1_mini
+CMAKE_BINARY_DIR = /Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/rowan/Development/Katara/cmake-build-d1_mini
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/opt/clion-2020.1.2/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/opt/clion-2020.1.2/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rowan/Development/Katara/cmake-build-d1_mini/CMakeFiles /home/rowan/Development/Katara/cmake-build-d1_mini/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/CMakeFiles /Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rowan/Development/Katara/cmake-build-d1_mini/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Production
+# Target rules for targets named Z_DUMMY_TARGET
 
 # Build rule for target.
-Production: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Production
-.PHONY : Production
+Z_DUMMY_TARGET: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Z_DUMMY_TARGET
+.PHONY : Z_DUMMY_TARGET
 
 # fast build rule for target.
-Production/fast:
-	$(MAKE) -f CMakeFiles/Production.dir/build.make CMakeFiles/Production.dir/build
-.PHONY : Production/fast
+Z_DUMMY_TARGET/fast:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/build
+.PHONY : Z_DUMMY_TARGET/fast
 
 #=============================================================================
 # Target rules for targets named Debug
@@ -137,17 +137,17 @@ Debug/fast:
 .PHONY : Debug/fast
 
 #=============================================================================
-# Target rules for targets named Z_DUMMY_TARGET
+# Target rules for targets named Production
 
 # Build rule for target.
-Z_DUMMY_TARGET: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Z_DUMMY_TARGET
-.PHONY : Z_DUMMY_TARGET
+Production: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Production
+.PHONY : Production
 
 # fast build rule for target.
-Z_DUMMY_TARGET/fast:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/build
-.PHONY : Z_DUMMY_TARGET/fast
+Production/fast:
+	$(MAKE) -f CMakeFiles/Production.dir/build.make CMakeFiles/Production.dir/build
+.PHONY : Production/fast
 
 .pio/libdeps/d1_mini/Adafruit_Unified_Sensor/Adafruit_Sensor.obj: .pio/libdeps/d1_mini/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.obj
 
@@ -175,114 +175,6 @@ Z_DUMMY_TARGET/fast:
 .pio/libdeps/d1_mini/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.s:
 	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.s
 .PHONY : .pio/libdeps/d1_mini/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.s
-
-.pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.obj: .pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.cpp.obj
-
-.PHONY : .pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.obj
-
-# target to build an object file
-.pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.cpp.obj:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.cpp.obj
-.PHONY : .pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.cpp.obj
-
-.pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.i: .pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.cpp.i
-
-.PHONY : .pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.i
-
-# target to preprocess a source file
-.pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.cpp.i:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.cpp.i
-.PHONY : .pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.cpp.i
-
-.pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.s: .pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.cpp.s
-
-.PHONY : .pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.s
-
-# target to generate assembly for a file
-.pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.cpp.s:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.cpp.s
-.PHONY : .pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.cpp.s
-
-.pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.obj: .pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.cpp.obj
-
-.PHONY : .pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.obj
-
-# target to build an object file
-.pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.cpp.obj:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.cpp.obj
-.PHONY : .pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.cpp.obj
-
-.pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.i: .pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.cpp.i
-
-.PHONY : .pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.i
-
-# target to preprocess a source file
-.pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.cpp.i:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.cpp.i
-.PHONY : .pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.cpp.i
-
-.pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.s: .pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.cpp.s
-
-.PHONY : .pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.s
-
-# target to generate assembly for a file
-.pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.cpp.s:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.cpp.s
-.PHONY : .pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.cpp.s
-
-.pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.obj: .pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.cpp.obj
-
-.PHONY : .pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.obj
-
-# target to build an object file
-.pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.cpp.obj:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.cpp.obj
-.PHONY : .pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.cpp.obj
-
-.pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.i: .pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.cpp.i
-
-.PHONY : .pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.i
-
-# target to preprocess a source file
-.pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.cpp.i:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.cpp.i
-.PHONY : .pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.cpp.i
-
-.pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.s: .pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.cpp.s
-
-.PHONY : .pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.s
-
-# target to generate assembly for a file
-.pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.cpp.s:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.cpp.s
-.PHONY : .pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.cpp.s
-
-.pio/libdeps/d1_mini/Blynk/src/utility/utility.obj: .pio/libdeps/d1_mini/Blynk/src/utility/utility.cpp.obj
-
-.PHONY : .pio/libdeps/d1_mini/Blynk/src/utility/utility.obj
-
-# target to build an object file
-.pio/libdeps/d1_mini/Blynk/src/utility/utility.cpp.obj:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/utility.cpp.obj
-.PHONY : .pio/libdeps/d1_mini/Blynk/src/utility/utility.cpp.obj
-
-.pio/libdeps/d1_mini/Blynk/src/utility/utility.i: .pio/libdeps/d1_mini/Blynk/src/utility/utility.cpp.i
-
-.PHONY : .pio/libdeps/d1_mini/Blynk/src/utility/utility.i
-
-# target to preprocess a source file
-.pio/libdeps/d1_mini/Blynk/src/utility/utility.cpp.i:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/utility.cpp.i
-.PHONY : .pio/libdeps/d1_mini/Blynk/src/utility/utility.cpp.i
-
-.pio/libdeps/d1_mini/Blynk/src/utility/utility.s: .pio/libdeps/d1_mini/Blynk/src/utility/utility.cpp.s
-
-.PHONY : .pio/libdeps/d1_mini/Blynk/src/utility/utility.s
-
-# target to generate assembly for a file
-.pio/libdeps/d1_mini/Blynk/src/utility/utility.cpp.s:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/utility.cpp.s
-.PHONY : .pio/libdeps/d1_mini/Blynk/src/utility/utility.cpp.s
 
 .pio/libdeps/d1_mini/DHT_sensor_library/DHT.obj: .pio/libdeps/d1_mini/DHT_sensor_library/DHT.cpp.obj
 
@@ -372,25 +264,13 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Production"
 	@echo "... edit_cache"
-	@echo "... Debug"
 	@echo "... Z_DUMMY_TARGET"
+	@echo "... Debug"
+	@echo "... Production"
 	@echo "... .pio/libdeps/d1_mini/Adafruit_Unified_Sensor/Adafruit_Sensor.obj"
 	@echo "... .pio/libdeps/d1_mini/Adafruit_Unified_Sensor/Adafruit_Sensor.i"
 	@echo "... .pio/libdeps/d1_mini/Adafruit_Unified_Sensor/Adafruit_Sensor.s"
-	@echo "... .pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.obj"
-	@echo "... .pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.i"
-	@echo "... .pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.s"
-	@echo "... .pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.obj"
-	@echo "... .pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.i"
-	@echo "... .pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.s"
-	@echo "... .pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.obj"
-	@echo "... .pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.i"
-	@echo "... .pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.s"
-	@echo "... .pio/libdeps/d1_mini/Blynk/src/utility/utility.obj"
-	@echo "... .pio/libdeps/d1_mini/Blynk/src/utility/utility.i"
-	@echo "... .pio/libdeps/d1_mini/Blynk/src/utility/utility.s"
 	@echo "... .pio/libdeps/d1_mini/DHT_sensor_library/DHT.obj"
 	@echo "... .pio/libdeps/d1_mini/DHT_sensor_library/DHT.i"
 	@echo "... .pio/libdeps/d1_mini/DHT_sensor_library/DHT.s"
