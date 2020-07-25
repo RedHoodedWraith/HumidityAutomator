@@ -48,9 +48,6 @@ void syncData(){
  * Reports the data to the Serial Monitor
  */
 void reportData(){
-
-
-
     Serial.print("Humidity: ");
     Serial.println(hum);
     Serial.print("Temperature: ");
