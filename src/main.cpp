@@ -2,7 +2,7 @@
 #include "DHT.h"
 #include <BlynkSimpleEsp8266.h>
 
-#define SENSOR 2
+#define SENSOR D4
 #define TEMP_BLYNK V0
 #define HUMID_BLYNK V1
 #define THRESHOLD_BLYNK V2
