@@ -35,27 +35,27 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /opt/clion-2020.1.2/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /opt/clion-2020.1.2/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/rowan/Development/HumidityAutomator
+CMAKE_SOURCE_DIR = /home/rowan/Development/HumidityAutomator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/rowan/Development/HumidityAutomator/cmake-build-debug
+CMAKE_BINARY_DIR = /home/rowan/Development/HumidityAutomator/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Z_DUMMY_TARGET.dir/all
-all: CMakeFiles/Debug.dir/all
 all: CMakeFiles/Production.dir/all
+all: CMakeFiles/Debug.dir/all
+all: CMakeFiles/Z_DUMMY_TARGET.dir/all
 
 .PHONY : all
 
@@ -65,38 +65,38 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Z_DUMMY_TARGET.dir/clean
-clean: CMakeFiles/Debug.dir/clean
 clean: CMakeFiles/Production.dir/clean
+clean: CMakeFiles/Debug.dir/clean
+clean: CMakeFiles/Z_DUMMY_TARGET.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Z_DUMMY_TARGET.dir
+# Target rules for target CMakeFiles/Production.dir
 
 # All Build rule for target.
-CMakeFiles/Z_DUMMY_TARGET.dir/all:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/depend
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/rowan/Development/HumidityAutomator/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Z_DUMMY_TARGET"
-.PHONY : CMakeFiles/Z_DUMMY_TARGET.dir/all
+CMakeFiles/Production.dir/all:
+	$(MAKE) -f CMakeFiles/Production.dir/build.make CMakeFiles/Production.dir/depend
+	$(MAKE) -f CMakeFiles/Production.dir/build.make CMakeFiles/Production.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rowan/Development/HumidityAutomator/cmake-build-debug/CMakeFiles --progress-num= "Built target Production"
+.PHONY : CMakeFiles/Production.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Z_DUMMY_TARGET.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rowan/Development/HumidityAutomator/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Z_DUMMY_TARGET.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rowan/Development/HumidityAutomator/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Z_DUMMY_TARGET.dir/rule
+CMakeFiles/Production.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rowan/Development/HumidityAutomator/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Production.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rowan/Development/HumidityAutomator/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Production.dir/rule
 
 # Convenience name for target.
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/rule
+Production: CMakeFiles/Production.dir/rule
 
-.PHONY : Z_DUMMY_TARGET
+.PHONY : Production
 
 # clean rule for target.
-CMakeFiles/Z_DUMMY_TARGET.dir/clean:
-	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/clean
-.PHONY : CMakeFiles/Z_DUMMY_TARGET.dir/clean
+CMakeFiles/Production.dir/clean:
+	$(MAKE) -f CMakeFiles/Production.dir/build.make CMakeFiles/Production.dir/clean
+.PHONY : CMakeFiles/Production.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Debug.dir
@@ -105,14 +105,14 @@ CMakeFiles/Z_DUMMY_TARGET.dir/clean:
 CMakeFiles/Debug.dir/all:
 	$(MAKE) -f CMakeFiles/Debug.dir/build.make CMakeFiles/Debug.dir/depend
 	$(MAKE) -f CMakeFiles/Debug.dir/build.make CMakeFiles/Debug.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/rowan/Development/HumidityAutomator/cmake-build-debug/CMakeFiles --progress-num= "Built target Debug"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rowan/Development/HumidityAutomator/cmake-build-debug/CMakeFiles --progress-num= "Built target Debug"
 .PHONY : CMakeFiles/Debug.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Debug.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rowan/Development/HumidityAutomator/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rowan/Development/HumidityAutomator/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Debug.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rowan/Development/HumidityAutomator/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rowan/Development/HumidityAutomator/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Debug.dir/rule
 
 # Convenience name for target.
@@ -126,31 +126,31 @@ CMakeFiles/Debug.dir/clean:
 .PHONY : CMakeFiles/Debug.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Production.dir
+# Target rules for target CMakeFiles/Z_DUMMY_TARGET.dir
 
 # All Build rule for target.
-CMakeFiles/Production.dir/all:
-	$(MAKE) -f CMakeFiles/Production.dir/build.make CMakeFiles/Production.dir/depend
-	$(MAKE) -f CMakeFiles/Production.dir/build.make CMakeFiles/Production.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/rowan/Development/HumidityAutomator/cmake-build-debug/CMakeFiles --progress-num= "Built target Production"
-.PHONY : CMakeFiles/Production.dir/all
+CMakeFiles/Z_DUMMY_TARGET.dir/all:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/depend
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rowan/Development/HumidityAutomator/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Z_DUMMY_TARGET"
+.PHONY : CMakeFiles/Z_DUMMY_TARGET.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Production.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rowan/Development/HumidityAutomator/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Production.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rowan/Development/HumidityAutomator/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Production.dir/rule
+CMakeFiles/Z_DUMMY_TARGET.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rowan/Development/HumidityAutomator/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Z_DUMMY_TARGET.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rowan/Development/HumidityAutomator/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Z_DUMMY_TARGET.dir/rule
 
 # Convenience name for target.
-Production: CMakeFiles/Production.dir/rule
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/rule
 
-.PHONY : Production
+.PHONY : Z_DUMMY_TARGET
 
 # clean rule for target.
-CMakeFiles/Production.dir/clean:
-	$(MAKE) -f CMakeFiles/Production.dir/build.make CMakeFiles/Production.dir/clean
-.PHONY : CMakeFiles/Production.dir/clean
+CMakeFiles/Z_DUMMY_TARGET.dir/clean:
+	$(MAKE) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/clean
+.PHONY : CMakeFiles/Z_DUMMY_TARGET.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

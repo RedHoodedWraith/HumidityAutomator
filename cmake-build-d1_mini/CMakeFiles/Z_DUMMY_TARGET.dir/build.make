@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /opt/clion-2020.1.2/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /opt/clion-2020.1.2/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/rowan/Development/HumidityAutomator
+CMAKE_SOURCE_DIR = /home/rowan/Development/HumidityAutomator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini
+CMAKE_BINARY_DIR = /home/rowan/Development/HumidityAutomator/cmake-build-d1_mini
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Z_DUMMY_TARGET.dir/depend.make
@@ -59,60 +59,116 @@ include CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj"
-	/Users/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj -c /Users/rowan/Development/HumidityAutomator/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rowan/Development/HumidityAutomator/cmake-build-d1_mini/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj"
+	/home/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj -c /home/rowan/Development/HumidityAutomator/src/main.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.i"
-	/Users/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rowan/Development/HumidityAutomator/src/main.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.i
+	/home/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rowan/Development/HumidityAutomator/src/main.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.s"
-	/Users/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rowan/Development/HumidityAutomator/src/main.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.s
+	/home/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rowan/Development/HumidityAutomator/src/main.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.obj: ../.pio/libdeps/d1_mini/Adafruit\ Unified\ Sensor/Adafruit_Sensor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.obj"
-	/Users/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.obj -c "/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/Adafruit Unified Sensor/Adafruit_Sensor.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rowan/Development/HumidityAutomator/cmake-build-d1_mini/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.obj"
+	/home/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.obj -c "/home/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/Adafruit Unified Sensor/Adafruit_Sensor.cpp"
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.i"
-	/Users/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/Adafruit Unified Sensor/Adafruit_Sensor.cpp" > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.i
+	/home/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/Adafruit Unified Sensor/Adafruit_Sensor.cpp" > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.s"
-	/Users/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/Adafruit Unified Sensor/Adafruit_Sensor.cpp" -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.s
+	/home/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/Adafruit Unified Sensor/Adafruit_Sensor.cpp" -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.cpp.obj: ../.pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rowan/Development/HumidityAutomator/cmake-build-d1_mini/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.cpp.obj"
+	/home/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.cpp.obj -c /home/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.cpp.i"
+	/home/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.cpp.s"
+	/home/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.cpp.obj: ../.pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rowan/Development/HumidityAutomator/cmake-build-d1_mini/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.cpp.obj"
+	/home/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.cpp.obj -c /home/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.cpp.i"
+	/home/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.cpp.s"
+	/home/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.cpp.obj: ../.pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rowan/Development/HumidityAutomator/cmake-build-d1_mini/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.cpp.obj"
+	/home/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.cpp.obj -c /home/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.cpp.i"
+	/home/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.cpp.s"
+	/home/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.cpp.s
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/utility.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/utility.cpp.obj: ../.pio/libdeps/d1_mini/Blynk/src/utility/utility.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rowan/Development/HumidityAutomator/cmake-build-d1_mini/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/utility.cpp.obj"
+	/home/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/utility.cpp.obj -c /home/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/Blynk/src/utility/utility.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/utility.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/utility.cpp.i"
+	/home/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/Blynk/src/utility/utility.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/utility.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/utility.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/utility.cpp.s"
+	/home/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/Blynk/src/utility/utility.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/utility.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/DHT_sensor_library/DHT.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/DHT_sensor_library/DHT.cpp.obj: ../.pio/libdeps/d1_mini/DHT\ sensor\ library/DHT.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/DHT_sensor_library/DHT.cpp.obj"
-	/Users/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/DHT_sensor_library/DHT.cpp.obj -c "/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/DHT sensor library/DHT.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rowan/Development/HumidityAutomator/cmake-build-d1_mini/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/DHT_sensor_library/DHT.cpp.obj"
+	/home/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/DHT_sensor_library/DHT.cpp.obj -c "/home/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/DHT sensor library/DHT.cpp"
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/DHT_sensor_library/DHT.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/DHT_sensor_library/DHT.cpp.i"
-	/Users/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/DHT sensor library/DHT.cpp" > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/DHT_sensor_library/DHT.cpp.i
+	/home/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/DHT sensor library/DHT.cpp" > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/DHT_sensor_library/DHT.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/DHT_sensor_library/DHT.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/DHT_sensor_library/DHT.cpp.s"
-	/Users/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/DHT sensor library/DHT.cpp" -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/DHT_sensor_library/DHT.cpp.s
+	/home/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/DHT sensor library/DHT.cpp" -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/DHT_sensor_library/DHT.cpp.s
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/DHT_sensor_library/DHT_U.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/DHT_sensor_library/DHT_U.cpp.obj: ../.pio/libdeps/d1_mini/DHT\ sensor\ library/DHT_U.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/DHT_sensor_library/DHT_U.cpp.obj"
-	/Users/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/DHT_sensor_library/DHT_U.cpp.obj -c "/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/DHT sensor library/DHT_U.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rowan/Development/HumidityAutomator/cmake-build-d1_mini/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/DHT_sensor_library/DHT_U.cpp.obj"
+	/home/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/DHT_sensor_library/DHT_U.cpp.obj -c "/home/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/DHT sensor library/DHT_U.cpp"
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/DHT_sensor_library/DHT_U.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/DHT_sensor_library/DHT_U.cpp.i"
-	/Users/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/DHT sensor library/DHT_U.cpp" > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/DHT_sensor_library/DHT_U.cpp.i
+	/home/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/DHT sensor library/DHT_U.cpp" > CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/DHT_sensor_library/DHT_U.cpp.i
 
 CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/DHT_sensor_library/DHT_U.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/DHT_sensor_library/DHT_U.cpp.s"
-	/Users/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/DHT sensor library/DHT_U.cpp" -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/DHT_sensor_library/DHT_U.cpp.s
+	/home/rowan/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/rowan/Development/HumidityAutomator/.pio/libdeps/d1_mini/DHT sensor library/DHT_U.cpp" -o CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/DHT_sensor_library/DHT_U.cpp.s
 
 # Object files for target Z_DUMMY_TARGET
 Z_DUMMY_TARGET_OBJECTS = \
 "CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.cpp.obj" \
+"CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/utility.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/DHT_sensor_library/DHT.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/DHT_sensor_library/DHT_U.cpp.obj"
 
@@ -121,11 +177,15 @@ Z_DUMMY_TARGET_EXTERNAL_OBJECTS =
 
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/src/main.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Adafruit_Unified_Sensor/Adafruit_Sensor.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkDebug.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkHandlers.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/BlynkTimer.cpp.obj
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/Blynk/src/utility/utility.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/DHT_sensor_library/DHT.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/.pio/libdeps/d1_mini/DHT_sensor_library/DHT_U.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/build.make
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Z_DUMMY_TARGET"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rowan/Development/HumidityAutomator/cmake-build-d1_mini/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Z_DUMMY_TARGET"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Z_DUMMY_TARGET.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,6 +198,6 @@ CMakeFiles/Z_DUMMY_TARGET.dir/clean:
 .PHONY : CMakeFiles/Z_DUMMY_TARGET.dir/clean
 
 CMakeFiles/Z_DUMMY_TARGET.dir/depend:
-	cd /Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/rowan/Development/HumidityAutomator /Users/rowan/Development/HumidityAutomator /Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini /Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini /Users/rowan/Development/HumidityAutomator/cmake-build-d1_mini/CMakeFiles/Z_DUMMY_TARGET.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rowan/Development/HumidityAutomator/cmake-build-d1_mini && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rowan/Development/HumidityAutomator /home/rowan/Development/HumidityAutomator /home/rowan/Development/HumidityAutomator/cmake-build-d1_mini /home/rowan/Development/HumidityAutomator/cmake-build-d1_mini /home/rowan/Development/HumidityAutomator/cmake-build-d1_mini/CMakeFiles/Z_DUMMY_TARGET.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Z_DUMMY_TARGET.dir/depend
 
