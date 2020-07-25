@@ -44,23 +44,39 @@ void syncData(){
     Blynk.virtualWrite(HUMID_BLYNK, hum);
 }
 
-void showData(){
+/**
+ * Reports the data to the Serial Monitor
+ */
+void reportData(){
+
+
+
     Serial.print("Humidity: ");
     Serial.println(hum);
-    Serial.print("Temparature: ");
+    Serial.print("Temperature: ");
     Serial.println(temp);
     Serial.println();
 }
 
+/**
+ * Attempts to connect to WiFi
+ */
+void connectToWiFi(){
+    Blynk.connectWiFi(ssid, pass);
+    if(Blynk.connected()){
+        Blynk.config(auth);
+    }
+}
+
 void setup() {
     Serial.begin(9600);
-    Serial.println("hello world");
+    Serial.println("Welcome to Humidity Automator");
     sensor.begin();
-    Blynk.begin(auth, ssid, pass);
+
 }
 
 void loop() {
     update();
-    showData();
+    reportData();
     syncData();
 }
